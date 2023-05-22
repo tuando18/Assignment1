@@ -22,7 +22,7 @@
         android:layout_marginLeft="5dp"
         android:layout_marginTop="10dp"
         android:text="Đăng kí tài khoản mới!"
-        android:textColor="#fdcb6e"
+        android:textColor="#18347E"
         android:textSize="20dp"
         android:textStyle="bold" />
 
@@ -33,7 +33,7 @@
         android:layout_marginLeft="5dp"
         android:text="Vui lòng nhập đầy đủ thông tin đăng kí."
         android:textSize="15dp"
-        android:textColor="#ffeaa7"
+        android:textColor="#2980b9"
         android:textStyle="bold" />
 
     <EditText
@@ -53,6 +53,7 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/textviewshape"
         android:drawableRight="@drawable/ic_lock"
+        android:inputType="textPassword"
         android:hint="@string/txt_pass"
         android:textSize="20dp" />
 
@@ -63,6 +64,7 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/textviewshape"
         android:drawableRight="@drawable/ic_lock"
+        android:inputType="textPassword"
         android:hint="Nhập lại password"
         android:textSize="20dp" />
 
@@ -71,8 +73,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:textColor="#ffffff"
-        android:buttonTint="#ffffff"
+        android:textColor="#2d3436"
+        android:buttonTint="#2d3436"
         android:text="Ghi nhớ tài khoản" />
 
     <Button
@@ -141,7 +143,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:text="Đăng nhập"
-            android:textColor="#ff4757"
+            android:textColor="#40739e"
             android:textSize="14dp"
             android:textStyle="bold" />
     </LinearLayout>

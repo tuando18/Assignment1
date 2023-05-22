@@ -55,6 +55,7 @@
         android:background="@drawable/textviewshape"
         android:drawableRight="@drawable/ic_lock"
         android:hint="@string/txt_pass"
+        android:inputType="textPassword"
         android:textSize="20dp" />
 
     <CheckBox
@@ -62,8 +63,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:textColor="#ffffff"
-        android:buttonTint="#ffffff"
+        android:textColor="#2d3436"
+        android:buttonTint="#2d3436"
         android:text="Ghi nhớ tài khoản" />
 
     <Button
@@ -132,7 +133,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:text="Đăng kí"
-            android:textColor="#ff4757"
+            android:textColor="#40739e"
             android:textSize="14dp"
             android:textStyle="bold" />
     </LinearLayout>
