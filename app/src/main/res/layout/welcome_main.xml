@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBEFC7"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="220dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo_unity" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="@string/txt_FPT"
+        android:textColor="#B10606"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/layout_chuyen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_ios" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_adr" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_code" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_unity" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_tencent" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="FACULTY OF INFORMATION TECHNOLOGY"
+        android:textColor="#404040"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/layout_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.dovantuan.assignment1.custom_textview.Bold
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONNECT"
+            android:textColor="#404040"
+            android:textSize="25sp" />
+
+        <com.dovantuan.assignment1.custom_textview.Tangerine
+            android:id="@+id/txt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="the"
+            android:textColor="#404040"
+            android:textSize="29dp" />
+
+        <com.dovantuan.assignment1.custom_textview.Bold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FUTURE"
+            android:textColor="#404040"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <com.dovantuan.assignment1.custom_textview.oxy
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="tuaans.do.18"
+        android:textSize="15sp" />
+</LinearLayout>

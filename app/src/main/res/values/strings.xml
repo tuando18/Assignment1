@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="txt_FPT">FPOLY SOFTWARE COMPANY</string>
+    <string name="txt_tuan">t uaans.do.18</string>
+    <string name="txt_login">Chào mừng bạn đã trở lại,</string>
+    <string name="txt_login2">Vui lòng đăng nhập để tiếp tục!</string>
+    <string name="txt_user">Nhập username</string>
+    <string name="txt_pass">Nhập password</string>
+    <item name="edt_user" type="id" />
+</resources>
