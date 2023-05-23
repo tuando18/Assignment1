@@ -43,6 +43,7 @@
         android:layout_marginTop="30dp"
         android:background="@drawable/textviewshape"
         android:drawableRight="@drawable/ic_person"
+        android:inputType="textPersonName"
         android:hint="@string/txt_user"
         android:textSize="20dp" />
 
@@ -58,7 +59,7 @@
         android:textSize="20dp" />
 
     <EditText
-        android:id="@+id/edt_pass"
+        android:id="@+id/edt_repass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
