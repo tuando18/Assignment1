@@ -7,5 +7,9 @@
     <string name="txt_user">Nhập username</string>
     <string name="txt_pass">Nhập password</string>
     <string name="ASM1_PH31763">ASM1_PH31763</string>
+    <string name="QLNS">QUẢN LÍ NHÂN SỰ</string>
+    <string name="btn_PB">Phòng Ban</string>
+    <string name="btn_Nv">Nhân Viên</string>
+    <string name="btn_Exit">Thoát</string>
     <item name="edt_user" type="id" />
 </resources>
