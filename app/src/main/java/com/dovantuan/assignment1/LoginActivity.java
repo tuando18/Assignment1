@@ -25,16 +25,31 @@ public class LoginActivity extends AppCompatActivity {
         edtPassword.setText(data.getString("password"));
 
         Button dk = findViewById(R.id.btn_dki);
+        Button btnLogin = findViewById(R.id.btn_login);
+
         dk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent data = new Intent();
-                data.putExtra("number",18);
 
-                setResult(RESULT_OK, data);
-                finish();
+                onBackPressed();
             }
         });
 
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+    }
+    @Override
+    public void onBackPressed(){
+
+        Intent data = new Intent();
+        data.putExtra("number",18);
+
+        setResult(RESULT_OK, data);
+        super.onBackPressed();
     }
 }
