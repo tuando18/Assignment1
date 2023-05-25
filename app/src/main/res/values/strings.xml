@@ -6,5 +6,6 @@
     <string name="txt_login2">Vui lòng đăng nhập để tiếp tục!</string>
     <string name="txt_user">Nhập username</string>
     <string name="txt_pass">Nhập password</string>
+    <string name="ASM1_PH31763">ASM1_PH31763</string>
     <item name="edt_user" type="id" />
 </resources>

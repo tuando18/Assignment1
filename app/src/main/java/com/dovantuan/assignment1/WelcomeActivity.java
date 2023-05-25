@@ -16,17 +16,13 @@ public class WelcomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.welcome_main);
-
-        // Sử dụng Handler để chuyển sang màn hình khác sau thời gian chờ
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                // Intent để chuyển sang màn hình khác (ví dụ MainActivity)
-                Intent intent = new Intent(WelcomeActivity.this, LoginActivity.class);
+                Intent intent = new Intent(WelcomeActivity.this, SignupActivity.class);
                 startActivity(intent);
-                finish(); // Đóng màn hình chờ
+                finish();
             }
-        }, SPLASH_DURATION);
+        },3000);
     }
-
 }
