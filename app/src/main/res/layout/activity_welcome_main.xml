@@ -7,7 +7,7 @@
     android:background="#FBEFC7"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".WelcomeActivity">
+    tools:context=".Activity_Welcome">
 
     <ImageView
         android:layout_width="180dp"

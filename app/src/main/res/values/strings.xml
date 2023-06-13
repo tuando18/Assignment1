@@ -4,12 +4,15 @@
     <string name="txt_tuan">t uaans.do.18</string>
     <string name="txt_login">Chào mừng bạn đã trở lại,</string>
     <string name="txt_login2">Vui lòng đăng nhập để tiếp tục!</string>
-    <string name="txt_user">Nhập username</string>
+    <string name="txt_user">Nhập Username</string>
     <string name="txt_pass">Nhập password</string>
     <string name="ASM1_PH31763">ASM1_PH31763</string>
     <string name="QLNS">QUẢN LÍ NHÂN SỰ</string>
     <string name="btn_PB">Phòng Ban</string>
     <string name="btn_Nv">Nhân Viên</string>
     <string name="btn_Exit">Thoát</string>
+    <string name="txt_dssv">Thêm Phòng Nhân Viên Mới</string>
+    <string name="txt_themsv">"Thêm Nhân Viên "</string>
+    <string name="txt_submit">Thêm</string>
     <item name="edt_user" type="id" />
 </resources>

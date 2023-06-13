@@ -8,7 +8,7 @@
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context=".SignupActivity">
+    tools:context=".Activity_Register">
 
     <ImageView
         android:layout_width="180dp"
@@ -36,7 +36,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/edt_username"
+        android:id="@+id/edt_User_dki"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -47,7 +47,7 @@
         android:textSize="20dp" />
 
     <EditText
-        android:id="@+id/edt_password"
+        android:id="@+id/edt_pass_dki"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -58,7 +58,7 @@
         android:textSize="20dp" />
 
     <EditText
-        android:id="@+id/edt_retype_password"
+        android:id="@+id/edt_repass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -69,7 +69,7 @@
         android:textSize="20dp" />
 
     <Button
-        android:id="@+id/btn_signup"
+        android:id="@+id/btn_sign"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
